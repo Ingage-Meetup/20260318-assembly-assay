@@ -39,7 +39,7 @@ Is the evolution from assembly language into high level language similar to the 
 
 ## Interesting Supplemental Material: 
 
-- [98% of developers can’t program a computer](https://hal2020.com/2026/01/01/98-of-developers-cant-program-a-computer/)
-- [If you can learn CSS, you can learn Assembly](https://youtu.be/qqUgl6pFx8Q?si=PNg38Wgsu5t2_LWR&t=2225).
-- [On the foolishness of "natural language programming”](https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html) (1978) (Edsger W.Dijkstra)  
-- [Is coding, prompting like assembly, high level coding?](https://htmx.org/essays/yes-and/#is-coding-prompting-like-assembly-high-level-coding) (2026) (Carson Gross) 
+- [98% of developers can’t program a computer](https://hal2020.com/2026/01/01/98-of-developers-cant-program-a-computer/) (2026, Hal Berenson)
+- [If you can learn CSS, you can learn Assembly](https://youtu.be/qqUgl6pFx8Q?si=PNg38Wgsu5t2_LWR&t=2225). (2025, Casey Muratori)
+- [On the foolishness of "natural language programming”](https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html) (1978, Edsger W.Dijkstra)  
+- [Is coding, prompting like assembly, high level coding?](https://htmx.org/essays/yes-and/#is-coding-prompting-like-assembly-high-level-coding) (2026, Carson Gross) 
