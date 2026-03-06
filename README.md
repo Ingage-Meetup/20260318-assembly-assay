@@ -4,7 +4,7 @@ Assembly Language Contrived Academic Exercises
 
 # Task:  
 
-To use assembly language to accept user input and perform some calculations and String manipulation. 
+To do some String manipulation in both assembly language and in C, and see if we write more performant code if we write it at a lower level.
 
 # Goals 
 
@@ -14,8 +14,9 @@ To use assembly language to accept user input and perform some calculations and 
 
 # Tools 
 
-- [Tutorialispoint online compiler](https://www.tutorialspoint.com/compilers/online-assembly-compiler.htm). 
-- Your favorite AI tool. (Or the built-in AI assistant.) 
+- [Assembly compiler](https://www.tutorialspoint.com/compilers/online-assembly-compiler.htm).
+- [C compiler](https://www.tutorialspoint.com/compilers/online-c-compiler.htm).
+- [Assembly to C converter](https://www.codeconvert.ai/assembly-to-c-converter).
 
 # Inspiration: 
 
@@ -34,12 +35,11 @@ In this interview with [Casey Muratori](https://caseymuratori.com/about) (who I 
 
 # Task: 
 
-1. Write *The Name Program* in assembly [here](https://www.tutorialspoint.com/compilers/online-assembly-compiler.htm) **(~45 MINUTES)**
-2. Write *The Name Program* (only whatever you were able to do in assembly) in your favorite language. **(~5 MINUTES)**
-3. Have *AI translate the assembly code into your favorite language. **(~5 MINUTES)**
-4. Use a profiler to compare the performance of how the AI translated your assembly code with how you wrote it normally. (Might need to do 1_000x iterations to see a meaningful duration...) **(~15 MINUTES)**
-5. Have the *AI translate it *back* into assembly code. Does it resemble what you originally came up with? **(~15 MINUTES)**
-6. Use the remaining time to discuss as a group.
+1. Write *The Name Program* in [Assembly](https://www.tutorialspoint.com/compilers/online-assembly-compiler.htm) **(~45 MINUTES)**
+2. Write *The Name Program* in [C](https://www.tutorialspoint.com/compilers/online-c-compiler.htm). **(~15 MINUTES)**
+3. Use the AI translator to [translate the assembly into C](https://www.codeconvert.ai/assembly-to-c-converter). **(~5 MINUTES)**
+4. Compare the performance of how the AI translated your assembly code with how you wrote it normally. (Might need to do 1_000x iterations to see a meaningful duration...) **(~15 MINUTES)**
+5. Use the remaining time to discuss as a group.
 
 ## *The Name Program* (Just get as far as you can in 45 minutes, don't spend too long on this).
 
@@ -57,6 +57,3 @@ Accept input from the user; their first and last name separated with a space.
 - Print out their name where each letter is converted to its index in the alphabet (ex: a to zero, b to one, c to two). 
 - Print out the letter that occurs earliest in the alphabet. 
 - Print out their name shifted each letter forward in the alphabet by one letter (ex: a to b, b to c, wrap z to a).
-
-
-* Disclaimer: Having AI translate back-and-forth between assembly and <your favorite programming language> won't be a perfect 1:1 *mapping* per se. But I don't know a better way.
