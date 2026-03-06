@@ -13,21 +13,24 @@ Given the spec for [A Simple Program](#a-simple-program):
 
 ### **Low level language to high level language**
 
-1. [Write it in assembly](https://www.tutorialspoint.com/compilers/online-assembly-compiler.htm).
-2. [Write it in C](https://www.tutorialspoint.com/compilers/online-c-compiler.htm).
-3. [Translate it from C to assembly](https://godbolt.org/).
+1. [Write it in assembly](https://www.tutorialspoint.com/compilers/online-assembly-compiler.htm). **(~45mins)**
+2. [Write it in C](https://www.tutorialspoint.com/compilers/online-c-compiler.htm). **(~15mins)**
+3. [Translate it from C to assembly](https://godbolt.org/). **(~2mins)**
 
 ### **High level language to natural language**
 
-1. Write it in your high level programming language of choice (Java, C#, JavaScript...).
-2. Prompt AI to do it *(not to write it in code, just to do it).*
-3. Have AI translate the prompt in to your high level programming language of choice (Java, C#, JavaScript...).
+1. Write it in your high level programming language of choice (Java, C#, JavaScript...). **(~10mins)**
+2. Prompt AI to do it *(not to write it in code, just to do it).* **(~2mins)**
+3. Have AI translate the prompt in to your high level programming language of choice (Java, C#, JavaScript...). **(~5mins)**
 
 ### A Simple Program: 
 
-Given input from the user in a given format; print the input characters in alphabetical order.
+Given input from the user in a given format; print the input characters in order.
 
-**Format**: Their first and last name separated with a space, followed by their birthday (MM/dd/yyyy), and the mood that they are in today.
+**Format**: Their first and last name separated with a space, followed by their birthday (MM/dd/yyyy), and punctuation representing the mood that they are in today.  
+**Example**: 
+- Matt Kuhn, 03/18/1993, ???
+- Edsger Dijkstra, 05/11/1930, !!
 
 ## Discuss
 
@@ -35,7 +38,7 @@ Is the evolution from assembly language into high level language similar to the 
 
 - How is it similar?
 - How is it different?
-- Pros and cons?
+- What are the pros and cons of low level language, high level language, and natural language?
 
 ## Interesting Supplemental Material: 
 
