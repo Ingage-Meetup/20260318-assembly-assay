@@ -1,6 +1,6 @@
 # Assembly Assay
 
-## Goals 
+## Goal
 
 To answer the question: *Is the evolution from assembly language into high level language similar to the evolution of high level language into natural language?*
 
@@ -25,9 +25,9 @@ Given the spec for [A Simple Program](#a-simple-program):
 Given input from the user in a given format; print the input characters in order.
 
 **Format**: Their first and last name separated with a space, followed by their birthday (MM/dd/yyyy), and punctuation representing the mood that they are in today.  
-**Example**: 
-- Matt Kuhn, 03/18/1993, ???
-- Edsger Dijkstra, 05/11/1930, !!
+**Example**:  
+`Matt Kuhn, 03/18/1993, ???`  
+`Edsger Dijkstra, 05/11/1930, !!`  
 
 ## Discuss
 
