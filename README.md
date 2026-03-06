@@ -1,58 +1,38 @@
 # Assembly Assay
 
-Assembly Language Contrived Academic Exercises 
-
-# Task:  
-
-Given a spec for a single simple program:
-
-1. Write it in assembly.
-2. Write it in C.
-   - Translate it from C to assembly.
-3. Write it in your language of choice.
-4. Prompt AI to do it (not to write it in code, just to do it).
-
 # Goals 
 
+- MAINLY, to answer the question: *Is the evolution from assembly language into high level language similar to the evolution of high level language into natural language?*
 - To re-familiarize us with the language on which our high-level languages are built. 
 - Hopefully get some insight into what makes code performant (or not!). 
 - To appreciate what we do not have to manually do by hand anymore.
-- To answer the question: *Is the evolution from assembly language into high level language similar to the evolution of high level language into natural language?*
 
-# Tools 
+# Task:  
 
-- [Assembly compiler](https://www.tutorialspoint.com/compilers/online-assembly-compiler.htm).
-- [C compiler](https://www.tutorialspoint.com/compilers/online-c-compiler.htm).
-- [C to Assembly converter](https://godbolt.org/).
-- Google
-- Your IDE of choice
-- Perhaps a subscription to an AI coding tool or access to a free online tool.
+Given the spec for [A Simple Program](a-simple-program):
 
-# Inspiration: 
+**Low level language to high level language**
 
-## (Blog post) [98% of developers can’t program a computer](https://hal2020.com/2026/01/01/98-of-developers-cant-program-a-computer/). 
+1. [Write it in assembly](https://www.tutorialspoint.com/compilers/online-assembly-compiler.htm).
+2. [Write it in C](https://www.tutorialspoint.com/compilers/online-c-compiler.htm).
+3. [Translate it from C to assembly](https://godbolt.org/).
 
-In this blog post by [Hal Berenson](https://hal2020.com/about/) (whom I don’t know from Adam), the author points out that most developers cannot read or write low level code, such as that for a device driver. He doesn’t necessarily think that’s a bad thing. He points out that programming for it’s own sake is not the goal; getting things working is the goal. 
+**High level language to natural language**
 
-## (YouTube clip) [If you can learn CSS, you can learn Assembly](https://youtu.be/qqUgl6pFx8Q?si=PNg38Wgsu5t2_LWR&t=2225).
+1. Write it in your high level programming language of choice (Java, C#, JavaScript...).
+2. Prompt AI to do it *(not to write it in code, just to do it).*
+3. Have AI translate the prompt in to your high level programming language of choice (Java, C#, JavaScript...).
 
-In this interview with [Casey Muratori](https://caseymuratori.com/about) (who I first heard of on the [Standup Podcast](https://open.spotify.com/show/01A062kejnXFkJE01bjN5J), but is also famous for his word in Rad Game Tools), Casey says that professional web developers have rightly followed a philosophy of JIT (just-in-time) learning. JIT because they have SO MUCH that they need to know all of which is constantly changing. However, web developers also skew away from having truly deep knowledge about computing in general, which prevents them from truly understanding performance. 
+## A Simple Program: 
 
-## Interesting Reading: 
+Given input from the user in a given format; Print the input characters in alphabetical order
 
-- [On the foolishness of "natural language programming”](https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html) (Edsger W.Dijkstra)  
-- [Is coding, prompting like assembly, high level coding?](https://htmx.org/essays/yes-and/#is-coding-prompting-like-assembly-high-level-coding) (Carson Gross) 
+**Format**: Their first and last name separated with a space, followed by their birthday (MM/dd/yyyy), and the mood that they are in today.
 
-# Task: 
+# Interesting Supplemental Material: 
 
-1. Write *The Alpbahetizing Program* in [Assembly](https://www.tutorialspoint.com/compilers/online-assembly-compiler.htm) **(~45 MINUTES)**
-2. Write *The Alpbahetizing Program* in [C](https://www.tutorialspoint.com/compilers/online-c-compiler.htm). **(~15 MINUTES)**
-3. Use the web tool to [translate the C into Assembly](https://godbolt.org/). **(~5 MINUTES)**
-4. Write *The Alpbahetizing Program* in your favorite language. **(~15 MINUTES)**
-5. Prompt AI to do the *Alphabetizing Program*. (Not to write the code for it; just to do it).
+- [98% of developers can’t program a computer](https://hal2020.com/2026/01/01/98-of-developers-cant-program-a-computer/)
+- [If you can learn CSS, you can learn Assembly](https://youtu.be/qqUgl6pFx8Q?si=PNg38Wgsu5t2_LWR&t=2225).
+- [On the foolishness of "natural language programming”](https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html) (1978) (Edsger W.Dijkstra)  
+- [Is coding, prompting like assembly, high level coding?](https://htmx.org/essays/yes-and/#is-coding-prompting-like-assembly-high-level-coding) (2026) (Carson Gross) 
 
-## *The Alpbahetizing Program*
-
-Accept input from the user; their first and last name separated with a space. 
-
-- Print the characters in alphabetical order.
