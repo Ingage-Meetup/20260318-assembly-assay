@@ -9,7 +9,7 @@
 
 # Task:  
 
-Given the spec for [A Simple Program](a-simple-program):
+Given the spec for [A Simple Program](#a-simple-program):
 
 **Low level language to high level language**
 
