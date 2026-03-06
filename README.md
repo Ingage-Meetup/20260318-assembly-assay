@@ -4,19 +4,28 @@ Assembly Language Contrived Academic Exercises
 
 # Task:  
 
-To do some String manipulation in both assembly language and in C, and see if we write more performant code if we write it at a lower level.
+Given a spec for a single simple program:
+
+1. Write it in assembly.
+2. Write it in C.
+   - Translate it from C to assembly.
+3. Write it in your language of choice.
+4. Prompt AI to do it (not to write it in code, just to do it).
 
 # Goals 
 
 - To re-familiarize us with the language on which our high-level languages are built. 
 - Hopefully get some insight into what makes code performant (or not!). 
-- To appreciate what we do not have to manually do by hand anymore. 
+- To appreciate what we do not have to manually do by hand anymore.
+- To answer the question: *Is the evolution from assembly language into high level language similar to the evolution of high level language into natural language?*
 
 # Tools 
 
 - [Assembly compiler](https://www.tutorialspoint.com/compilers/online-assembly-compiler.htm).
 - [C compiler](https://www.tutorialspoint.com/compilers/online-c-compiler.htm).
-- [Assembly to C converter](https://www.codeconvert.ai/assembly-to-c-converter).
+- [C to Assembly converter](https://godbolt.org/).
+- Your IDE of choice
+- Perhaps a subscription to an AI coding tool or access to a free online tool.
 
 # Inspiration: 
 
@@ -35,25 +44,14 @@ In this interview with [Casey Muratori](https://caseymuratori.com/about) (who I 
 
 # Task: 
 
-1. Write *The Name Program* in [Assembly](https://www.tutorialspoint.com/compilers/online-assembly-compiler.htm) **(~45 MINUTES)**
-2. Write *The Name Program* in [C](https://www.tutorialspoint.com/compilers/online-c-compiler.htm). **(~15 MINUTES)**
-3. Use the AI translator to [translate the assembly into C](https://www.codeconvert.ai/assembly-to-c-converter). **(~5 MINUTES)**
-4. Compare the performance of how the AI translated your assembly code with how you wrote it normally. (Might need to do 1_000x iterations to see a meaningful duration...) **(~15 MINUTES)**
-5. Use the remaining time to discuss as a group.
+1. Write *The Alpbahetizing Program* in [Assembly](https://www.tutorialspoint.com/compilers/online-assembly-compiler.htm) **(~45 MINUTES)**
+2. Write *The Alpbahetizing Program* in [C](https://www.tutorialspoint.com/compilers/online-c-compiler.htm). **(~15 MINUTES)**
+3. Use the web tool to [translate the C into Assembly](https://godbolt.org/). **(~5 MINUTES)**
+4. Write *The Alpbahetizing Program* in your favorite language. **(~15 MINUTES)**
+5. Prompt AI to do the *Alphabetizing Program*. (Not to write the code for it; just to do it).
 
-## *The Name Program* (Just get as far as you can in 45 minutes, don't spend too long on this).
+## *The Alpbahetizing Program*
 
 Accept input from the user; their first and last name separated with a space. 
 
-- Print it out. 
-- Print out the first 5 characters. 
-- Print out just the first name. 
-- Print out just the last name. 
-- Print out the length. 
-- Print which is longer (their first name or their last name). 
-- Print out their name uppercased. 
-- Print out their name lowercased. 
-- Print out their name reversed. 
-- Print out their name where each letter is converted to its index in the alphabet (ex: a to zero, b to one, c to two). 
-- Print out the letter that occurs earliest in the alphabet. 
-- Print out their name shifted each letter forward in the alphabet by one letter (ex: a to b, b to c, wrap z to a).
+- Print the characters in alphabetical order.
