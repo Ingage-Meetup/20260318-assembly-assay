@@ -2,10 +2,7 @@
 
 ## Goals 
 
-- MAINLY, to answer the question: *Is the evolution from assembly language into high level language similar to the evolution of high level language into natural language?*
-- To re-familiarize us with the language on which our high-level languages are built. 
-- Hopefully get some insight into what makes code performant (or not!). 
-- To appreciate what we do not have to manually do by hand anymore.
+To answer the question: *Is the evolution from assembly language into high level language similar to the evolution of high level language into natural language?*
 
 ## Task:  
 
