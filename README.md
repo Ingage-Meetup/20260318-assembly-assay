@@ -24,6 +24,7 @@ Given a spec for a single simple program:
 - [Assembly compiler](https://www.tutorialspoint.com/compilers/online-assembly-compiler.htm).
 - [C compiler](https://www.tutorialspoint.com/compilers/online-c-compiler.htm).
 - [C to Assembly converter](https://godbolt.org/).
+- Google
 - Your IDE of choice
 - Perhaps a subscription to an AI coding tool or access to a free online tool.
 
