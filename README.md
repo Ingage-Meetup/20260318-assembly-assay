@@ -16,6 +16,10 @@ Given the spec for [A Simple Program](#a-simple-program):
 
 ### 2. **High Level Language (C) to Low Level Language (Assembly)**
 
+**Tools**
+- [C and Assembly compilers](https://godbolt.org/)
+- [AI Assisting Tools](https://www.tutorialspoint.com/compilers/online-assembly-compiler.htm)
+
 1. [Write it in C](https://godbolt.org/). **(~15mins)**
 2. [Write it in assembly](https://godbolt.org/). **(~45mins)**
 3. [Translate it from C to assembly](https://godbolt.org/). **(~2mins)**
