@@ -8,17 +8,17 @@ To answer the question: *Is the evolution from assembly language into high level
 
 Given the spec for [A Simple Program](#a-simple-program):
 
-### **Low level language to high level language**
+### 1. **High level language to natural language**
 
-1. [Write it in assembly](https://www.tutorialspoint.com/compilers/online-assembly-compiler.htm). **(~45mins)**
-2. [Write it in C](https://www.tutorialspoint.com/compilers/online-c-compiler.htm). **(~15mins)**
+1. Have The AI do it. **(~5mins)**
+2. Write it in your high level programming language of choice (Java, C#, JavaScript...). **(~10mins)**
+3. Have the AI write it in your high level programming language of choice (Java, C#, JavaScript...). **(~10mins)**
+
+### 2. **Low level language to high level language**
+
+1. [Write it in C](https://www.tutorialspoint.com/compilers/online-c-compiler.htm). **(~15mins)**
+2. [Write it in assembly](https://www.tutorialspoint.com/compilers/online-assembly-compiler.htm). **(~45mins)**
 3. [Translate it from C to assembly](https://godbolt.org/). **(~2mins)**
-
-### **High level language to natural language**
-
-1. Write it in your high level programming language of choice (Java, C#, JavaScript...). **(~10mins)**
-2. Prompt AI to do it *(not to write it in code, just to do it).* **(~2mins)**
-3. Have AI translate the prompt in to your high level programming language of choice (Java, C#, JavaScript...). **(~5mins)**
 
 ### A Simple Program: 
 
