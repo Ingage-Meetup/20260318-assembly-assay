@@ -16,8 +16,8 @@ Given the spec for [A Simple Program](#a-simple-program):
 
 ### 2. **High Level Language (C) to Low Level Language (Assembly)**
 
-1. [Write it in C](https://www.tutorialspoint.com/compilers/online-c-compiler.htm). **(~15mins)**
-2. [Write it in assembly](https://www.tutorialspoint.com/compilers/online-assembly-compiler.htm). **(~45mins)**
+1. [Write it in C](https://godbolt.org/). **(~15mins)**
+2. [Write it in assembly](https://godbolt.org/). **(~45mins)**
 3. [Translate it from C to assembly](https://godbolt.org/). **(~2mins)**
 
 ### A Simple Program: 
