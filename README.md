@@ -21,21 +21,21 @@ ETC...
 2. Clear the AI's context. Prompt the AI to do it again and observe the results. **(~2mins)**
 3. Clear the AI's context. Prompt the AI to do it again and observe the results. **(~2mins)**
 
-#### Questions for your consideration:
+**Questions for your consideration:**
 
 - Did the AI ask you any questions before executing the prompt?
 - Has the AI's output been consistent?
 - Did you tweak your prompt at each iteration? (You didn't have to, but you might have anyway). Why did you tweak your prompt? Did you get different output?
 - What are the pros and cons of collaborating with the AI like this?
 
-### 2. ** High Level Language **
+### 2. **High Level Language**
 
 1. Write it in your high level programming language of choice (Java, C#, JavaScript...). Run it and observe the results. **(~10mins)**
 2. Have the AI write it in your high level programming language of choice (Java, C#, JavaScript...). Run it and observe the results. **(~3mins)**
 3. Clear the AI's context. Have the AI write it again. Run it and observe the results. **(~3mins)**
 4. Clear the AI's context. Have the AI write it again. Run it and observe the results. **(~3mins)**
 
-#### Questions for your consideration:
+**Questions for your consideration:**
 
 - Did any new questions about the exact specifications of the program come up when you had to write it in a high level language?
 - Did the AI ask you any questions before it wrote any code?
@@ -52,7 +52,7 @@ ETC...
 2. [Write it in assembly](https://godbolt.org/). **(~45mins)**
 3. [Compile it from C to assembly](https://godbolt.org/). **(~2mins)**
 
-#### Questions for your consideration:
+**Questions for your consideration:**
 
 - Did any new questions about the exact specifications of the program come up when you had to write it in a low level language?
 - Did any new questions come up about how to write the program (not necessarily about specs)?
