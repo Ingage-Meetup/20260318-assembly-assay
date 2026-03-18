@@ -1,9 +1,9 @@
-# JavaScript Template
+# C# Template
 
 Reads lines from a CSV file and prints them.
 
 ## Run
 
 ```bash
-node main.js ../../input.csv
+dotnet script Main.cs ../../input.csv
 ```
