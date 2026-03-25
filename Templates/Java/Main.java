@@ -5,6 +5,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
+    public static String sortChars(String line) {
+        // TODO: implement
+        return null;
+    }
+
     public static void main(String[] args) throws IOException {
         List<String> lines = new ArrayList<>();
 
